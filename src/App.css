@@ -37,6 +37,14 @@
   }
 }
 
-input {
+input, button{
   margin-bottom: 15px;
+}
+
+.wraper {
+  width: 200px;
+  margin:25vh auto;
+  text-align: center;
+  background-color: gray;
+  transform: scale(2.0);
 }

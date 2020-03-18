@@ -21,7 +21,7 @@ const SignUp = () => {
     }
 
     return (
-        <>
+        <div class="wraper">
             <h1>SignUp</h1>
             <form onSubmit={handleSubmit}>
                 <div>
@@ -50,7 +50,7 @@ const SignUp = () => {
                 </div>
             </form>
             <Link to="/signIn">ログイン</Link>
-        </>
+        </div>
     );
 }
 

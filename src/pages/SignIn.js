@@ -20,7 +20,7 @@ const SignIn = () => {
     }
 
     return (
-        <>
+        <div class="wraper">
             <h1>SignIn</h1>
             <form onSubmit={handleLogin}>
                 <div>
@@ -46,7 +46,7 @@ const SignIn = () => {
                 </div>
             </form>
             <Link to="/signUp">新規登録</Link>
-        </>
+        </div>
     );
 }
 
